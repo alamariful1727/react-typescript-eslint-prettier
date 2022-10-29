@@ -47,6 +47,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Husky setup
+
+### Installation
+
+Installation of husky packages:
+
+```bash
+npx husky-init && npm install
+```
+
+It'll create a `pre-commit` file for husky. With the following command:
+
+```bash
+npm test
+```
+
+### Create new hooks for husky
+
+```bash
+npx husky set .husky/pre-commit "npm run lint && npm run test"
+```
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
