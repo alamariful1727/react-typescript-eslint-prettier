@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# react-typescript-eslint-prettier
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is about how to setup a **react** project with **typescript**, **eslint**, **prettier** & **husky**.
 
 ## Available Scripts
 
